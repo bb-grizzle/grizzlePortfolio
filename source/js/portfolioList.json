@@ -107,9 +107,25 @@
 			],
 			"linkStatus": false,
 			"link": ""
-
+		},{
+			"title": "STUDIO. grizzle",
+			"descript_s": "Branding work of STUDIO grizzle.",
+			"descript_l": "Studio. Grizzle create creative communication with user.I think it is possible to reduce the distance between work and the user by creating user interest through immersive interaction. Mainly working on design and development of web, app, interactive art and branding. ",
+			"tag": ["UI", "BRANDING", "WEB"],
+			"detail": [
+				"01.gif",
+				"02.png",
+				"03.png",
+				"04.png",
+				"05.gif",
+				"06.gif",
+				"07.gif",
+				"08.png",
+				"09.png",
+				"10.png"
+			],
+			"linkStatus": true,
+			"link": "http://grizzle.co.kr/"
 		}
-
-
 	]
 }
