@@ -22,8 +22,8 @@ rotateCard = (x,y) => {
 checkOrientation = (e) => {
 
   // const changeX = 
-  const changeY = (e.beta%180 * 0.8) - 14;
-  const changeX = (e.gamma%180 * 0.8)*-1;
+  const changeY = (e.beta%180 * 0.5) - 14;
+  const changeX = (e.gamma%180 * 0.5)*-1;
   
   rotateCard(changeX, changeY)
 }
