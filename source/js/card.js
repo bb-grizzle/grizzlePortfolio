@@ -8,24 +8,25 @@ checkMouseDist = (e) => {
   mouse_x = e.pageX / screen.availWidth;
   mouse_y = e.pageY / screen.availHeight;
 
-  rotateCard(mouse_x, mouse_y);
+  const changeX = mouse_x*changeRatio*2-changeRatio;
+  const changeY = (mouse_y*changeRatio*2-changeRatio)*-1;
+
+  rotateCard(changeX, changeY);
 }
 
 rotateCard = (x,y) => {
   const card = document.querySelector('.wrap-card');
-  
-  const changeX = x*changeRatio*2-changeRatio;
-  const changeY = (y*changeRatio*2-changeRatio)*-1;
-  card.style.transform = `perspective(3000px) rotateX(${changeX}deg) rotateY(${changeY}deg)`;
+  card.style.transform = `perspective(3000px) rotateY(${x}deg) rotateX(${y}deg)`;
 }
 
 checkOrientation = (e) => {
-  rotateCard(reRangeDegree(e.beta), reRangeDegree(e.alpha))
+
+  // const changeX = 
+  const changeY = (e.beta%180 * 0.3) - 14;
+  console.log(changeY);
+  rotateCard(0, changeY)
 }
 
-reRangeDegree = (d) => {
-  return d%360 / 90 * changeRatio;
-}
 
 window.mobilecheck = function() {
   var check = false;
