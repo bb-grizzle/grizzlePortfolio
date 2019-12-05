@@ -16,11 +16,15 @@ rotateCard = (x,y) => {
   
   const changeX = x*changeRatio*2-changeRatio;
   const changeY = (y*changeRatio*2-changeRatio)*-1;
-  card.style.transform = `perspective(3000px) rotateY(${changeX}deg) rotateX(${changeY}deg)`;
+  card.style.transform = `perspective(3000px) rotateX(${changeX}deg) rotateY(${changeY}deg)`;
 }
 
 checkOrientation = (e) => {
-  alert('test');
+  rotateCard(reRangeDegree(e.beta), reRangeDegree(e.alpha))
+}
+
+reRangeDegree = (d) => {
+  return d%360 / 90 * changeRatio;
 }
 
 window.mobilecheck = function() {
