@@ -1,0 +1,126 @@
+html {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-card {
+  width: calc(100vw - 5rem);
+  position: relative;
+  height: calc(100vh - 5rem);
+  margin: 2.5rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.16);
+  background: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 100;
+  position: relative;
+  z-index: 1;
+}
+
+h1 span {
+  font-family: 'Pacifico', cursive;
+  text-transform: lowercase;
+}
+
+.card-symbole {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #FFF542;
+}
+
+
+.header-underline {
+  width: 100%;
+  height: 2px;
+  background: #FFF542;
+  position: relative;
+  top: -20px;
+  z-index: 0;
+}
+
+.card-info {
+  position: absolute;
+  /* width: calc(100% - 4rem); */
+
+  font-size: 1rem;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.card-info-text li {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.card-info li h3 {
+  text-transform: capitalize;
+  min-width: 60px;
+}
+
+.card-info li p {
+  margin-left: 1.2rem;
+  color: gray;
+}
+
+.card-info li p a {
+  color: gray;
+}
+
+.card-link {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+}
+
+.card-link li {
+  width: 3rem;
+  height: 3rem;
+}
+
+.card-link a {
+  background: #FFF542;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-link img {
+  height: 50%;
+
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .wrap-card {
+    padding: 1rem;
+  }
+
+  .card-info {
+    right: initial;
+    left: 1rem;
+    bottom: 1rem;
+
+    width: calc(100% - 2rem);
+  }
+
+}

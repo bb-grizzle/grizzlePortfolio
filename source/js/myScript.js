@@ -4,7 +4,7 @@
 
 window.onload = function () {
 	getData();
-//	prevent hover
+//prevent hover
 	
 	if(w<768){
 		preventHover();
