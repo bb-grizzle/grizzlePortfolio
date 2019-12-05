@@ -23,7 +23,7 @@ checkOrientation = (e) => {
 
   // const changeX = 
   const changeY = (e.beta%180 * 0.8) - 14;
-  const changeX = (e.alpha%180 * 0.8)*-1;
+  const changeX = (e.gamma%180 * 0.8)*-1;
   
   rotateCard(changeX, changeY)
 }
