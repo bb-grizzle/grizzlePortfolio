@@ -63,28 +63,33 @@ h1 span {
 }
 
 .card-info-text li {
-  display: flex;
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .card-info li h3 {
   text-transform: capitalize;
   min-width: 60px;
+  font-size: 1rem;
 }
 
 .card-info li p {
   margin-left: 1.2rem;
   color: gray;
+  font-size: 1rem;
 }
 
 .card-info li p a {
   color: gray;
 }
 
+
 .card-link {
   margin-top: 3rem;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card-link li {
