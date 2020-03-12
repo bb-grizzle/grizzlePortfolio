@@ -1,7 +1,6 @@
 {
 	"project": [
-		{
-			"title": "Mash Up",
+		{"title": "Mash Up",
 			"descript_s": "Mash Up 2019 Rebranding",
 			"descript_l": "Mash-Up, connected through IT services, were re-branded with stronger presence and belonging through the three value keywords, Growth, Synergy and Creativity.",
 			"tag": ["Branding", "BX"],
@@ -25,8 +24,7 @@
 			"linkStatus": false,
 			"link": ""
 		}, 
-		{
-			"title": "Rooming",
+		{"title": "Rooming",
 			"descript_s": "Product that rescue from smart phone",
 			"descript_l": "Get out of your smartphone and indulge in your own immersion with Rooming",
 			"tag": ["Product", "IoT", "UI"],
@@ -57,8 +55,7 @@
 			"link": ""
 
 		},
-		{
-			"title": "10 Days Trip",
+		{"title": "10 Days Trip",
 			"descript_s": "My inspiration archive from Europe trip",
 			"descript_l": "The 10 days trip started with the concept of traveling one country for 10 days per person. I made the page because I wanted to archive inspiration and thoughts from my travels to Croatia, Switzerland and Italy on the illustration and the Web.",
 			"tag": ["WEB", "INTERACTION", "PUBLISHING"],
@@ -68,10 +65,9 @@
 				"04.png"
 			],
 			"linkStatus": false,
-			"link": "http://grizzle.co.kr/project/10DaysTrip/"
+			"link": "10DaysTrip"
 		}, 
-		{
-			"title": "Mash UP / Archive",
+		{"title": "Mash UP / Archive",
 			"descript_s": "Archive web page for Mash Up",
 			"descript_l": "There are so many information that we passed away. So we realize that We need some place to archive source of information or our project. Mash Up archive web is the place to store history and information. ",
 			"tag": ["UI", "UX", "WEB"],
@@ -88,8 +84,7 @@
 			"link": ""
 
 		},
-		{
-			"title": "TOMBs",
+		{"title": "TOMBs",
 			"descript_s": "Think about your death.",
 			"descript_l": "We continue to run towards death ever since we were born. But we afraid and reluctant to talk about death. After all, they often fail to complete their lives without properly preparing for death. Project TOMBs allows you to think about death and provide a platform to share with others so you can look back on your life. ",
 			"tag": ["UI", "UX", "WEB"],
@@ -112,8 +107,7 @@
 			"linkStatus": false,
 			"link": ""
 		},
-		{
-			"title": "STUDIO. grizzle",
+		{"title": "STUDIO. grizzle",
 			"descript_s": "Branding work of STUDIO grizzle.",
 			"descript_l": "Studio. Grizzle create creative communication with user.I think it is possible to reduce the distance between work and the user by creating user interest through immersive interaction. Mainly working on design and development of web, app, interactive art and branding. ",
 			"tag": ["UI", "BRANDING", "WEB"],
