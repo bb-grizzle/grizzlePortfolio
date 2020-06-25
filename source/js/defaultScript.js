@@ -1,3 +1,4 @@
+console.log("UPDATE | 2020.06.25")
 //page status
 var pageStats = false;
 
