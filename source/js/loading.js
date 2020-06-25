@@ -31,17 +31,16 @@ loader_text();
 //	}, 1400);
 //}
 
-function loader_text(){
+function loader_text() {
 	console.log();
 	console.log('- loader_text -');
-	
-	const roll=["creator", "designer", "developer", "student", "lazybones", "father", "mother", "helper", "explorer", "visitor", "manager", "artist", "musician", "poor", "rich"];
-	
-	const p = document.querySelector('.load-p');
-	
-	setInterval(()=>{
-		const ranNumb = Math.floor(Math.random()*roll.length);
-		p.innerHTML = roll[ranNumb];
-	},300);
-}
 
+	const roll = ["creator", "designer", "developer", "student", "lazybones", "father", "mother", "helper", "explorer", "visitor", "manager", "artist", "musician", "poor", "rich"];
+
+	const p = document.querySelector('.load-p');
+
+	setInterval(function () {
+		const ranNumb = Math.floor(Math.random() * roll.length);
+		p.innerHTML = roll[ranNumb];
+	}, 300);
+}
