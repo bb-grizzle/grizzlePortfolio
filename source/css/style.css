@@ -16,7 +16,7 @@
 }
 
 .btn-back-wrap {
-	background-color: #FFF542;
+	background-color: #fff542;
 	display: flex;
 	position: absolute;
 	z-index: 5;
@@ -27,7 +27,7 @@
 	pointer-events: none;
 	justify-content: center;
 	align-items: center;
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 }
 
 #btn-back-fixed {
@@ -35,7 +35,7 @@
 	position: fixed;
 	top: 145px;
 	left: 12.5%;
-	transition: all .5s cubic-bezier(.83, .29, .07, .95);
+	transition: all 0.5s cubic-bezier(0.83, 0.29, 0.07, 0.95);
 	transform: translateX(50%);
 }
 
@@ -55,7 +55,6 @@
 .sec-portfolio {
 	min-height: 100vh;
 }
-
 
 .thumbnail {
 	position: relative;
@@ -79,13 +78,12 @@
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
 	/* tr01 */
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 	/*	tochange*/
 	/*
 	pointer-events: none; 
 	opacity: 0; 
 */
-
 }
 
 .thumb-list * {
@@ -113,12 +111,11 @@
 .link-btn {
 	display: inline-block;
 	padding: 8px 20px;
-	background-color: #FFF542;
+	background-color: #fff542;
 	color: black;
 	pointer-events: auto;
 	font-weight: bolder;
 	text-transform: capitalize;
-
 }
 
 .list-opacity {
@@ -137,13 +134,11 @@
 	overflow: inherit;
 }
 
-
-
 .thum-padding {
 	padding: 1px;
 	height: 100%;
 
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 }
 
 .thum-wrap {
@@ -153,7 +148,7 @@
 	position: relative;
 	overflow: hidden;
 	/* tr01 */
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 }
 
 .portfolio-thumb {
@@ -181,7 +176,7 @@
 	z-index: 2;
 	opacity: 0;
 
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 }
 
 .thum-bw {
@@ -193,13 +188,11 @@
 	bottom: 0px;
 	left: 0px;
 	z-index: 3;
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
-
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 
 	/* from change */
 	transform: translateY(100%);
 	width: 100%;
-
 
 	/* opacity: 0; */
 }
@@ -214,28 +207,28 @@
 	width: 100%;
 	color: black;
 	padding: 0 15px;
-	background-color: #FFF542;
+	background-color: #fff542;
 }
 
-.text-active>.text-discript {
-	background-color: #F6F6F6;
+.text-active > .text-discript {
+	background-color: #f6f6f6;
 	padding-left: 15px;
 }
 
 .cata-wrap {
-	background-color: #FFF542;
+	background-color: #fff542;
 	position: absolute;
 	top: -20px;
 	left: 0;
 	display: inline-block;
 	height: 20px;
 	overflow: hidden;
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 
 	/* from change */
 	width: 20px;
 	/*    padding-right: 0;*/
-	color: #FFF542;
+	color: #fff542;
 }
 
 .text-cata {
@@ -253,7 +246,7 @@
 .text-discript {
 	padding: 12px 20px 15px 20px;
 	background-color: white;
-	transition: all .4s cubic-bezier(0.57, 0.02, 0.06, 1);
+	transition: all 0.4s cubic-bezier(0.57, 0.02, 0.06, 1);
 }
 
 .text-discript h4 {
@@ -269,15 +262,12 @@
 	color: rgba(0, 0, 0, 0.5);
 }
 
-
 .thumb-list:hover {
 	z-index: 4;
 }
 
 .thumb-list:hover .thum-wrap {
-	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-		0px 4px 5px 0px rgba(0, 0, 0, 0.14),
-		0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 	transform: translate(0px, -8px);
 	border-radius: 12px;
 }
@@ -302,14 +292,12 @@
 	/*	border: 1px solid black;*/
 	opacity: 0;
 	transform: translateY(80px);
-	transition: all .5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 	pointer-events: none;
 }
 
 .list-detail .con {
-	box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
-		0px 8px 10px 1px rgba(0, 0, 0, 0.14),
-		0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+	box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-move {
@@ -324,10 +312,8 @@
 	width: 100%;
 }
 
-
 /*media query*/
 @media (max-width: 1200px) {
-
 	/*	tablet*/
 	.thumb-list {
 		width: 33.3%;
@@ -336,7 +322,6 @@
 	.text-active {
 		width: 50%;
 	}
-
 }
 
 @media (max-width: 992px) {
@@ -389,7 +374,6 @@
 		transform: translateY(0%);
 		opacity: 1;
 	}
-
 }
 
 @media (max-width: 768px) {
@@ -412,5 +396,4 @@
 	.sec-portfolio {
 		padding: 0;
 	}
-
 }

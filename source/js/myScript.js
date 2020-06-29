@@ -188,8 +188,7 @@ function showLinkBtn(el) {
 	const hrefLink = arr_link[listNodeNumb_reverse];
 
 	const linkBtn = document.createElement("a");
-	const newlink = "/project/" + hrefLink;
-	linkBtn.setAttribute("href", newlink);
+	linkBtn.setAttribute("href", hrefLink);
 	linkBtn.setAttribute("target", "_blank");
 
 	linkBtn.innerHTML = "go to the link";
