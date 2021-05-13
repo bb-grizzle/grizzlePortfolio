@@ -1,26 +1,11 @@
 {
-	"project": [{
+	"project": [
+		{
 			"title": "Mash Up",
 			"descript_s": "Mash Up 2019 Rebranding",
 			"descript_l": "Mash-Up, connected through IT services, were re-branded with stronger presence and belonging through the three value keywords, Growth, Synergy and Creativity.",
 			"tag": ["Branding", "BX"],
-			"detail": ["01.gif",
-				"02.jpg",
-				"03.jpg",
-				"04.jpg",
-				"05.gif",
-				"06.jpg",
-				"07.jpg",
-				"08.jpg",
-				"09.jpg",
-				"10.jpg",
-				"11.jpg",
-				"12.jpg",
-				"13.jpg",
-				"14.jpg",
-				"15.jpg",
-				"16.jpg"
-			],
+			"detail": ["01.gif", "02.jpg", "03.jpg", "04.jpg", "05.gif", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg"],
 			"linkStatus": false,
 			"link": ""
 		},
@@ -29,7 +14,8 @@
 			"descript_s": "Product that rescue from smart phone",
 			"descript_l": "Get out of your smartphone and indulge in your own immersion with Rooming",
 			"tag": ["Product", "IoT", "UI"],
-			"detail": ["01.gif",
+			"detail": [
+				"01.gif",
 				"02.png",
 				"03.png",
 				"04.png",
@@ -54,18 +40,13 @@
 			],
 			"linkStatus": false,
 			"link": ""
-
 		},
 		{
 			"title": "10 Days Trip",
 			"descript_s": "My inspiration archive from Europe trip",
 			"descript_l": "The 10 days trip started with the concept of traveling one country for 10 days per person. I made the page because I wanted to archive inspiration and thoughts from my travels to Croatia, Switzerland and Italy on the illustration and the Web.",
 			"tag": ["WEB", "INTERACTION", "PUBLISHING"],
-			"detail": ["01.png",
-				"02.png",
-				"03.png",
-				"04.png"
-			],
+			"detail": ["01.png", "02.png", "03.png", "04.png"],
 			"linkStatus": false,
 			"link": "https://grizzle.co.kr/project/10DaysTrip"
 		},
@@ -74,40 +55,16 @@
 			"descript_s": "Archive web page for Mash Up",
 			"descript_l": "There are so many information that we passed away. So we realize that We need some place to archive source of information or our project. Mash Up archive web is the place to store history and information. ",
 			"tag": ["UI", "UX", "WEB"],
-			"detail": ["01.gif",
-				"02.png",
-				"03.png",
-				"04.png",
-				"05.png",
-				"06.png",
-				"07.gif",
-				"08.png"
-			],
+			"detail": ["01.gif", "02.png", "03.png", "04.png", "05.png", "06.png", "07.gif", "08.png"],
 			"linkStatus": false,
 			"link": ""
-
 		},
 		{
 			"title": "TOMBs",
 			"descript_s": "Think about your death.",
 			"descript_l": "We continue to run towards death ever since we were born. But we afraid and reluctant to talk about death. After all, they often fail to complete their lives without properly preparing for death. Project TOMBs allows you to think about death and provide a platform to share with others so you can look back on your life. ",
 			"tag": ["UI", "UX", "WEB"],
-			"detail": [
-				"01.gif",
-				"02.png",
-				"03.gif",
-				"04.png",
-				"05.png",
-				"06.gif",
-				"07.png",
-				"08.png",
-				"09.png",
-				"10.gif",
-				"11.gif",
-				"12.png",
-				"13.png",
-				"14.png"
-			],
+			"detail": ["01.gif", "02.png", "03.gif", "04.png", "05.png", "06.gif", "07.png", "08.png", "09.png", "10.gif", "11.gif", "12.png", "13.png", "14.png"],
 			"linkStatus": false,
 			"link": ""
 		},
@@ -116,18 +73,7 @@
 			"descript_s": "Branding work of STUDIO grizzle.",
 			"descript_l": "Studio. Grizzle create creative communication with user.I think it is possible to reduce the distance between work and the user by creating user interest through immersive interaction. Mainly working on design and development of web, app, interactive art and branding. ",
 			"tag": ["UI", "BRANDING", "WEB"],
-			"detail": [
-				"01.gif",
-				"02.png",
-				"03.png",
-				"04.png",
-				"05.gif",
-				"06.gif",
-				"07.gif",
-				"08.png",
-				"09.png",
-				"10.png"
-			],
+			"detail": ["01.gif", "02.png", "03.png", "04.png", "05.gif", "06.gif", "07.gif", "08.png", "09.png", "10.png"],
 			"linkStatus": true,
 			"link": "http://grizzle.co.kr/"
 		},
@@ -136,19 +82,18 @@
 			"descript_s": "Collect and Mange your memory",
 			"descript_l": "Collect and Mange your memor. You can Collect some place where you want to go. and manage the schedule when you want to go with your love one.",
 			"tag": ["UI", "BRANDING", "APP"],
-			"detail": [
-				"01.png",
-				"02.png",
-				"03.png",
-				"04.png",
-				"05.gif",
-				"06.png",
-				"07.gif",
-				"08.gif",
-				"09.png"
-			],
+			"detail": ["01.png", "02.png", "03.png", "04.png", "05.gif", "06.png", "07.gif", "08.gif", "09.png"],
 			"linkStatus": true,
 			"link": "https://www.behance.net/gallery/94392905/Luvket"
+		},
+		{
+			"title": "Ecrits",
+			"descript_s": "Ecrits website",
+			"descript_l": "Ecrits website. We think about the value of life beyond the value of design",
+			"tag": ["DEV", "DESIGN", "BRANDING"],
+			"detail": [],
+			"linkStatus": true,
+			"link": "https://ecrits.co.kr/"
 		}
 	]
 }
