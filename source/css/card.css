@@ -1,140 +1,141 @@
 html {
-  font-size: 16px;
-  width: 100%;
-  height: 100%;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
 }
 
 body {
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	height: calc(var(--vh, 1vh) * 100);
 }
 
 .wrap-card {
-  width: calc(100vw - 10rem);
-  position: relative;
-  height: calc(100vh - 10rem);
-  margin: 5rem;
-  padding: 2rem;
-  box-sizing: border-box;
-  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.16);
-  background: #fff;
+	width: calc(100% - 10rem);
+	height: calc(100% - 10rem);
+	position: relative;
+	margin: 5rem;
+	padding: 2rem;
+	box-sizing: border-box;
+	box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.16);
+	background: #fff;
 }
 
 h1 {
-  font-size: 3rem;
-  text-transform: capitalize;
-  font-weight: 100;
-  position: relative;
-  z-index: 1;
+	font-size: 3rem;
+	text-transform: capitalize;
+	font-weight: 100;
+	position: relative;
+	z-index: 1;
 }
 
 h1 span {
-  font-family: 'Pacifico', cursive;
-  text-transform: lowercase;
+	font-family: "Pacifico", cursive;
+	text-transform: lowercase;
 }
 
 .card-symbole {
-  width: 5rem;
-  height: 5rem;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: #FFF542;
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #fff542;
 }
 
-
 .header-underline {
-  width: 100%;
-  height: 2px;
-  background: #FFF542;
-  position: relative;
-  top: -20px;
-  z-index: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff542;
+	position: relative;
+	top: -20px;
+	z-index: 0;
 }
 
 .card-info {
-  position: absolute;
-  /* width: calc(100% - 4rem); */
+	position: absolute;
+	/* width: calc(100% - 4rem); */
 
-  font-size: 1rem;
-  right: 2rem;
-  bottom: 2rem;
+	font-size: 1rem;
+	right: 2rem;
+	bottom: 2rem;
 }
 
 .card-info-text li {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
 }
 
 .card-info li h3 {
-  text-transform: capitalize;
-  min-width: 60px;
-  font-size: 1rem;
+	text-transform: capitalize;
+	min-width: 60px;
+	font-size: 1rem;
 }
 
 .card-info li p {
-  margin-left: 1.2rem;
-  color: gray;
-  font-size: 1rem;
+	margin-left: 1.2rem;
+	color: gray;
+	font-size: 1rem;
 }
 
 .card-info li p a {
-  color: gray;
+	color: gray;
 }
 
-
 .card-link {
-  margin-top: 3rem;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+	margin-top: 3rem;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .card-link li {
-  width: 3rem;
-  height: 3rem;
+	width: 3rem;
+	height: 3rem;
 }
 
 .card-link a {
-  background: #FFF542;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	background: #fff542;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .card-link img {
-  height: 50%;
-
+	height: 50%;
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 14px;
-  }
+	html {
+		font-size: 14px;
+	}
 
-  .wrap-card {
-    padding: 1rem;
-    width: calc(100vw - 5rem);
-    height: calc(100vh - 10rem);
-    margin: 5rem 2.5rem;
-  }
+	.wrap-card {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
 
-  .card-info {
-    right: initial;
-    left: 1rem;
-    bottom: 1rem;
+		padding: 1rem;
+		width: calc(100% - 5rem);
+		height: calc(100% - 10rem);
+		margin: 5rem 2.5rem;
+	}
 
-    width: calc(100% - 2rem);
-  }
+	.card-info {
+		right: initial;
+		left: 1rem;
+		bottom: 1rem;
 
+		width: calc(100% - 2rem);
+	}
 
-  .card-symbole{
-    width: 10rem;
-    height: 10rem;
-  }
-
+	.card-symbole {
+		width: 10rem;
+		height: 10rem;
+	}
 }
